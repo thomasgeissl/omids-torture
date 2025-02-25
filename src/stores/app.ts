@@ -9,9 +9,7 @@ interface State {
   addText: () => void;
 }
 
-const text =
-  "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo";
-const words = text.split(" ");
+const text = "For slamming the keys in frustration. For forcing too many apps at once. For letting the battery drain fully. For leaving liquids nearby. For ignoring temperature alerts. For stacking papers on the device. For neglecting cooling pads. For overloading the CPU. For not cleaning the monitor. For deleting system files accidentally. For leaving on sleep mode for weeks. For overheating during gaming. For overloading the hard drive. For damaging the screen with rough cleaning. For ignoring low storage warnings. For running at max capacity all day. For using pirated software. For careless file downloads that caused harm. For neglecting to dust the vents regularly. For neglecting thermal paste. For yanking cables carelessly. For running untested beta software. For letting dust accumulate inside. For not using a surge protector. For skipping BIOS updates. For ignoring system warnings. For leaving heavy objects on the lid. For pressing Ctrl+Alt+Del without reason. For exposing to unsafe temperatures. For overburdening the GPU. For not using proper cooling systems. For never cleaning the ports. For skipping proper shutdowns. For overheating the components. For not removing malware sooner. For ignoring power-saving features. For damaging the screen with rough cleaning. For running too many tabs. For banging the trackpad. For deleting system files accidentally."
 
 const useStore = create<State>()(
   devtools(
@@ -22,11 +20,13 @@ const useStore = create<State>()(
         index: -1,
         addText: () => {
           const { output, index } = get();
-          if (index < words.length - 2) {
+          if (index < text.length - 1) {
             set({
-              output: output + " " + words[index + 1],
+              output: output + text[index + 1],
               index: index + 1,
             });
+          }else{
+            set({index: -1})
           }
         },
       }),
@@ -40,70 +40,5 @@ const useStore = create<State>()(
   )
 );
 
-function getVideosFromURL(): Video[] {
-  const params = new URLSearchParams(window.location.search);
-  const videos = params.get("videos");
-  if (videos) {
-    const urls = JSON.parse(decodeURIComponent(videos));
-    const videoObjects = urls.map((id: string) => {
-      const isShorts = id.length < 12; // Short IDs are usually shorter than standard IDs
-      const baseUrl = isShorts
-        ? `https://www.youtube.com/shorts/${id}`
-        : `https://www.youtube.com/watch?v=${id}`;
-      return {
-        url: baseUrl,
-        volume: 0.4,
-      };
-    });
-    console.log(videoObjects);
-    useStore.getState().setVideos(videoObjects);
-  }
-  return [];
-}
-
-function extractVideoId(url: string) {
-  const videoRegex = /(?:https?:\/\/)?(?:www\.)?youtube\.com\/.*[?&]v=([^&]+)/;
-  const shortsRegex = /(?:https?:\/\/)?(?:www\.)?youtube\.com\/shorts\/([^?]+)/;
-  const youtuBeRegex = /(?:https?:\/\/)?youtu\.be\/([^?]+)/;
-
-  let match = url.match(videoRegex);
-  if (match) return match[1];
-
-  match = url.match(shortsRegex);
-  if (match) return match[1];
-
-  match = url.match(youtuBeRegex);
-  if (match) return match[1];
-
-  return null;
-}
-
-async function copyToClipboard(text: string) {
-  try {
-    await navigator.clipboard.writeText(text);
-    console.log("Copied to clipboard:", text);
-    useStore.getState().setShowCopiedNotification(true);
-  } catch (err) {
-    console.log(text);
-    console.error("Failed to copy text:", err);
-  }
-}
-
-function setVideosInURL() {
-  const videos = useStore.getState().videos;
-  const urls = videos.map((video) => {
-    return extractVideoId(video.url);
-  });
-  const params = new URLSearchParams(window.location.search);
-  params.set("videos", encodeURIComponent(JSON.stringify(urls)));
-  window.history.replaceState(
-    null,
-    "",
-    `${window.location.pathname}?${params.toString()}`
-  );
-
-  copyToClipboard(window.location.href);
-}
 
 export default useStore;
-export { setVideosInURL, getVideosFromURL };

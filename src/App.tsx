@@ -14,6 +14,12 @@ function App() {
       if (event.key === "o") {
         addText();
       }
+      if (event.key === "t") {
+        addText();
+      }
+      if (event.key === "s") {
+        addText();
+      }
     };
 
     window.addEventListener("keydown", handleKeyDown);
@@ -39,9 +45,15 @@ function App() {
         overflow: "auto",
       }}
     >
-      {/* <Typography variant="h3" padding={"64px"}> */}
-      <Typography variant="h3">
-        {output}
+      <Typography variant="h3" padding={"64px"}>
+      {/* <Typography variant="h3"> */}
+      {output.split("").map((char: string, index:number)=>{
+        if(char === "."){
+          return <br></br>
+        }else{
+          return <>{char}</>
+        }
+      })}
       </Typography>
     </Box>
   );
