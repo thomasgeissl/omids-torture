@@ -8,7 +8,6 @@ function App() {
 
   const boxRef = useRef<HTMLDivElement>(null);
 
-
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "o") {
@@ -32,7 +31,6 @@ function App() {
     if (boxRef.current) {
       boxRef.current.scrollTop = boxRef.current.scrollHeight;
     }
-
   }, [output]);
 
   return (
@@ -46,14 +44,14 @@ function App() {
       }}
     >
       <Typography variant="h3" padding={"64px"}>
-      {/* <Typography variant="h3"> */}
-      {output.split("").map((char: string, index:number)=>{
-        if(char === "."){
-          return <br></br>
-        }else{
-          return <>{char}</>
-        }
-      })}
+        {/* <Typography variant="h3"> */}
+        {output.split("").map((char: string, index: number) => {
+          if (char === ".") {
+            return <br key={`br-${index}`}></br>;
+          } else {
+            return <span key={`char-${index}`}>{char}</span>;
+          }
+        })}
       </Typography>
     </Box>
   );
