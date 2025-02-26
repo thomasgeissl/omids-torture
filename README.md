@@ -1,6 +1,6 @@
 # Omid's Torture
 
-## prerequisites
+## prerequisites for dev
 * node.js with npm
 * visual studio code
 * a modern browser, e.g. firefox/chrome/brave
@@ -9,3 +9,4 @@
 * install dependencies `npm install`
 * run in dev mode `npm run dev`
 * build app `npm run build`
+* serve app `npm run serve`
