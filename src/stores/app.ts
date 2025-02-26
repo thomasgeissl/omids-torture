@@ -33,7 +33,7 @@ const useStore = create<State>()(
       {
         name: "app",
         storage: createJSONStorage(() => localStorage),
-        partialize: (state) => {},
+        partialize: () => {},
       }
     ),
     { name: "app" }
